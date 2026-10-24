@@ -1,4 +1,4 @@
-public class LoopsAndIterations {
+public class A8_LoopsAndIterations {
     public static void main(String[] args) {
         // while loop
         var isAlive = true;
@@ -19,5 +19,17 @@ public class LoopsAndIterations {
         //break and continue
         // break -> to stop the loop
         // to continue the loop
+
+
+        // labled loops
+        outerLoop :
+        for(int i=0;i<100;i++){
+            for(int j=0;j<100;j++){
+                if(i!= 0 && i == j){
+                    break outerLoop;
+                    //same for continue ig
+                }
+            }
+        }
     }
 }

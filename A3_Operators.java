@@ -1,4 +1,4 @@
-public class Operators {
+public class A3_Operators {
     public static void main(String[] args) {
         // 1. Arithmetic Operators -> +,-,*,/,%
 
@@ -16,5 +16,10 @@ public class Operators {
         System.out.println("Result: " + 5 + 5); 
         //Java reads expressions from left to right. Think about what happens when text hits the first number.
         System.out.println("Result: "+(5+5));
+
+        //Ternary
+        int confidenceRequired = 57;
+        int confidenceHave = 19;
+        boolean isPlayerReady = (confidenceHave > confidenceRequired) ? true : false;
     }
 }
