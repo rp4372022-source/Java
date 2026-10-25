@@ -14,3 +14,4 @@ public class c1_Arrays {
         System.out.println(Arrays.class);
     }
 }
+// have to much inbuilt functions have to check it
