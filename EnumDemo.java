@@ -1,4 +1,4 @@
-// use to determin the state 
+// use to determine the state 
 // when we dont want to return in string we return enum
 enum ProcessState {
     NEW,
@@ -16,5 +16,7 @@ public class EnumDemo {
         } else {
             System.out.println("Process not Ready yet");
         }
+
+        System.out.println(ProcessState.NEW.ordinal()); //to get the sequence number
     }
 }
