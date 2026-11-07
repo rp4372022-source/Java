@@ -82,5 +82,22 @@ public class Patterns {
             }
             System.out.println();
         }
+
+        /*
+           1 
+          2 2 
+         3 3 3 
+        4 4 4 4 
+        */
+        length = 4;
+        for(int i=0;i<length;i++){
+            for(int j=0;j<length-i-1;j++){
+                System.out.print(" ");
+            }
+            for(int k=0;k<=i;k++){
+                System.out.print(i+1+" ");
+            }
+            System.out.println();
+        }
     }
 }

@@ -8,7 +8,7 @@ public class c1_Arrays {
         
         int[] nums = {1,2,3,4}; //initialization + declaration
 
-        int nums1[] = {4,3,2,1}; //also alowed
+        int nums1[] = {4,3,2,1}; //also allowed
 
 
         System.out.println(Arrays.class);
