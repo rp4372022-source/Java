@@ -42,5 +42,27 @@ public class A7_SwitchCase {
         };
 
         System.out.println(result);
+
+        //for cases where same value on diff cases needed
+
+        int dayy = 1;
+        switch (dayy) {
+            case 1 : case 10 : case 50 :
+                System.out.println("Day good");
+                break;
+            case 2 : case 20 :
+                System.out.println("Day even good");  
+                break; 
+            default:
+                System.out.println("ok");
+        }
+
+        int dayyy = 3;
+        switch (dayyy) {
+            case 1, 10, 30 -> System.out.println("Day good");
+            case 2, 20 -> System.out.println("Day even good");
+            default -> System.out.println("ok");
+        }
+        
     }
 }
